@@ -1,0 +1,284 @@
+--------------------------------------------------------------------------
+SHOT 1
+--------------------------------------------------------------------------
+LOG:
+[TX] timestamp:0.6468 X:-121.766 Y:507.761 Z:1.2 SF:7 FCnt:1 DevID:201
+[RX] timestamp:0.713617 SF:7 FCnt:1 DevID:201 GwID:1000 RSSI:-18.008
+[TX] timestamp:0.827825 X:781.281 Y:542.276 Z:1.2 SF:7 FCnt:1 DevID:194
+[RX] timestamp:0.894644 SF:7 FCnt:1 DevID:194 GwID:1000 RSSI:-23.8409
+[TX] timestamp:1.06166 X:-333.009 Y:791.847 Z:1.2 SF:8 FCnt:1 DevID:313
+[RX] timestamp:1.17482 SF:8 FCnt:1 DevID:313 GwID:1000 RSSI:-25.5281
+[TX] timestamp:1.38418 X:-422.336 Y:-40.1951 Z:1.2 SF:8 FCnt:1 DevID:275
+[TX] timestamp:1.44612 X:-26.2489 Y:291.458 Z:1.2 SF:9 FCnt:1 DevID:324
+[RX] timestamp:1.49734 SF:8 FCnt:1 DevID:275 GwID:1000 RSSI:-15.5825
+[TX] timestamp:1.63083 X:-657.862 Y:-257.213 Z:1.2 SF:9 FCnt:1 DevID:459
+
+QUESTION:
+Which packets for given device are correctly transmitted?
+
+ANSWER:
+FCnt:1 DevID:201
+FCnt:1 DevID:194
+FCnt:1 DevID:313
+FCnt:1 DevID:275
+
+
+
+--------------------------------------------------------------------------
+SHOT 2
+--------------------------------------------------------------------------
+LOG:
+[TX] timestamp:2648.73 X:-440.021 Y:869.082 Z:1.2 SF:9 FCnt:18 DevID:397
+[TX] timestamp:2648.81 X:311.122 Y:52.3937 Z:1.2 SF:9 FCnt:19 DevID:354
+[TX] timestamp:2649.04 X:-666.532 Y:409.071 Z:1.2 SF:7 FCnt:18 DevID:127
+[RX] timestamp:2649.11 SF:7 FCnt:18 DevID:127 GwID:1000 RSSI:-22.4458
+[TX] timestamp:2649.28 X:-686.965 Y:424.943 Z:1.2 SF:10 FCnt:18 DevID:556
+[TX] timestamp:2649.4 X:-500.989 Y:-281.463 Z:1.2 SF:12 FCnt:18 DevID:953
+[TX] timestamp:2649.55 X:482.547 Y:661.83 Z:1.2 SF:9 FCnt:19 DevID:461
+[TX] timestamp:2649.68 X:-823.016 Y:236.865 Z:1.2 SF:12 FCnt:19 DevID:938
+[RX] timestamp:2649.69 SF:10 FCnt:18 DevID:556 GwID:1000 RSSI:-22.8529
+[TX] timestamp:2649.76 X:-132.851 Y:789.532 Z:1.2 SF:7 FCnt:18 DevID:209
+[TX] timestamp:2650.12 X:-105.438 Y:-818.834 Z:1.2 SF:12 FCnt:18 DevID:882
+[TX] timestamp:2650.27 X:185.458 Y:-191.048 Z:1.2 SF:7 FCnt:20 DevID:173
+[TX] timestamp:2650.52 X:419.132 Y:-198.629 Z:1.2 SF:8 FCnt:18 DevID:310
+[TX] timestamp:2650.54 X:608.034 Y:200.211 Z:1.2 SF:12 FCnt:18 DevID:991
+
+QUESTION:
+Which packets for given device are correctly transmitted?
+
+ANSWER:
+FCnt:18 DevID:127
+FCnt:18 DevID:556
+
+--------------------------------------------------------------------------
+SHOT 3
+--------------------------------------------------------------------------
+LOG:
+[TX] timestamp:2653.45 X:-234.757 Y:837.144 Z:1.2 SF:12 FCnt:17 DevID:820
+[TX] timestamp:2653.63 X:-376.778 Y:-284.276 Z:1.2 SF:10 FCnt:18 DevID:567
+[TX] timestamp:2653.72 X:-346.365 Y:573.88 Z:1.2 SF:11 FCnt:19 DevID:694
+[TX] timestamp:2654.02 X:-534.374 Y:-815.789 Z:1.2 SF:11 FCnt:19 DevID:713
+[TX] timestamp:2654.11 X:621.242 Y:595.208 Z:1.2 SF:12 FCnt:18 DevID:833
+[TX] timestamp:2654.34 X:112.828 Y:-538.224 Z:1.2 SF:10 FCnt:19 DevID:501
+[TX] timestamp:2654.46 X:592.428 Y:239.434 Z:1.2 SF:11 FCnt:19 DevID:654
+[TX] timestamp:2654.74 X:-587.472 Y:533.362 Z:1.2 SF:12 FCnt:18 DevID:949
+[TX] timestamp:2654.8 X:252.053 Y:852.557 Z:1.2 SF:7 FCnt:18 DevID:234
+[TX] timestamp:2655.14 X:-749.124 Y:-461.172 Z:1.2 SF:7 FCnt:18 DevID:227
+[RX] timestamp:2655.21 SF:7 FCnt:18 DevID:227 GwID:1000 RSSI:-28.7341
+[TX] timestamp:2655.23 X:371.431 Y:-279.928 Z:1.2 SF:7 FCnt:18 DevID:81
+[RX] timestamp:2655.29 SF:7 FCnt:18 DevID:81 GwID:1000 RSSI:-18.1152
+[TX] timestamp:2655.56 X:-398.763 Y:712.809 Z:1.2 SF:12 FCnt:19 DevID:976
+[TX] timestamp:2655.57 X:230.417 Y:-424.954 Z:1.2 SF:9 FCnt:18 DevID:365
+[TX] timestamp:2655.62 X:131.58 Y:712.52 Z:1.2 SF:7 FCnt:18 DevID:206
+
+QUESTION:
+Which packets for given device are correctly transmitted?
+
+ANSWER:
+FCnt:18 DevID:227
+
+
+--------------------------------------------------------------------------
+SHOT 4
+--------------------------------------------------------------------------
+LOG:
+[TX] timestamp:2687.2 X:463.389 Y:-236.677 Z:1.2 SF:9 FCnt:18 DevID:426
+[TX] timestamp:2687.53 X:66.113 Y:-738.793 Z:1.2 SF:11 FCnt:18 DevID:728
+[TX] timestamp:2687.54 X:144.319 Y:-575.014 Z:1.2 SF:11 FCnt:19 DevID:662
+[TX] timestamp:2687.59 X:-973.318 Y:53.1513 Z:1.2 SF:7 FCnt:18 DevID:104
+[TX] timestamp:2687.7 X:-193.57 Y:-4.39208 Z:1.2 SF:9 FCnt:19 DevID:437
+[TX] timestamp:2687.71 X:-450.642 Y:582.25 Z:1.2 SF:9 FCnt:18 DevID:485
+[TX] timestamp:2688.21 X:-632.002 Y:62.4065 Z:1.2 SF:9 FCnt:18 DevID:378
+[TX] timestamp:2688.22 X:-640.969 Y:-217.14 Z:1.2 SF:9 FCnt:18 DevID:335
+[TX] timestamp:2688.3 X:-269.892 Y:387.497 Z:1.2 SF:7 FCnt:18 DevID:132
+[RX] timestamp:2688.36 SF:7 FCnt:18 DevID:132 GwID:1000 RSSI:-13.8264
+[TX] timestamp:2688.55 X:494.356 Y:-38.1804 Z:1.2 SF:10 FCnt:18 DevID:554
+[TX] timestamp:2688.68 X:-66.4033 Y:-308.721 Z:1.2 SF:7 FCnt:18 DevID:101
+[TX] timestamp:2688.73 X:-574.57 Y:-45.9266 Z:1.2 SF:7 FCnt:18 DevID:31
+[TX] timestamp:2688.82 X:207.679 Y:-570.899 Z:1.2 SF:12 FCnt:18 DevID:948
+[TX] timestamp:2688.95 X:202.35 Y:-197.221 Z:1.2 SF:12 FCnt:19 DevID:879
+
+QUESTION:
+Which packets for given device are correctly transmitted?
+
+ANSWER:
+FCnt:18 DevID:132
+
+
+--------------------------------------------------------------------------
+SHOT 5
+--------------------------------------------------------------------------
+LOG:
+[TX] timestamp:2836.12 X:-763.089 Y:303.751 Z:1.2 SF:9 FCnt:19 DevID:340
+[RX] timestamp:2836.34 SF:9 FCnt:19 DevID:340 GwID:1000 RSSI:-22.1819
+[TX] timestamp:2836.36 X:667.276 Y:209.04 Z:1.2 SF:7 FCnt:19 DevID:159
+[TX] timestamp:2836.39 X:-36.1486 Y:531.612 Z:1.2 SF:11 FCnt:19 DevID:648
+[TX] timestamp:2836.4 X:533.818 Y:710.866 Z:1.2 SF:9 FCnt:19 DevID:338
+[RX] timestamp:2836.42 SF:7 FCnt:19 DevID:159 GwID:1000 RSSI:-24.4854
+[TX] timestamp:2836.5 X:602.687 Y:-299.853 Z:1.2 SF:9 FCnt:19 DevID:412
+[TX] timestamp:2836.64 X:-497.759 Y:424.351 Z:1.2 SF:11 FCnt:20 DevID:682
+[RX] timestamp:2836.72 SF:9 FCnt:19 DevID:412 GwID:1000 RSSI:-23.1671
+[TX] timestamp:2836.8 X:647.59 Y:-302.591 Z:1.2 SF:8 FCnt:19 DevID:269
+[TX] timestamp:2836.84 X:-932.651 Y:-299.507 Z:1.2 SF:10 FCnt:19 DevID:500
+[RX] timestamp:2836.91 SF:8 FCnt:19 DevID:269 GwID:1000 RSSI:-20.7882
+[TX] timestamp:2837.09 X:463.067 Y:122.925 Z:1.2 SF:11 FCnt:20 DevID:724
+[TX] timestamp:2837.17 X:391.675 Y:-283.426 Z:1.2 SF:12 FCnt:20 DevID:831
+[TX] timestamp:2837.22 X:-738.937 Y:-485.112 Z:1.2 SF:12 FCnt:19 DevID:950
+[TX] timestamp:2837.42 X:746.141 Y:-277.532 Z:1.2 SF:9 FCnt:19 DevID:381
+[TX] timestamp:2837.54 X:81.7345 Y:415.861 Z:1.2 SF:7 FCnt:20 DevID:213
+[TX] timestamp:2837.72 X:-860.745 Y:-197.434 Z:1.2 SF:9 FCnt:19 DevID:389
+
+QUESTION:
+Which packets for given device are correctly transmitted?
+
+ANSWER:
+FCnt:19 DevID:159
+FCnt:19 DevID:412
+FCnt:19 DevID:269
+--------------------------------------------------------------------------
+SHOT 6
+--------------------------------------------------------------------------
+LOG:
+[TX] timestamp:2687.2 X:463.389 Y:-236.677 Z:1.2 SF:9 FCnt:18 DevID:426
+[TX] timestamp:2687.53 X:66.113 Y:-738.793 Z:1.2 SF:11 FCnt:18 DevID:728
+[TX] timestamp:2687.54 X:144.319 Y:-575.014 Z:1.2 SF:11 FCnt:19 DevID:662
+[TX] timestamp:2687.59 X:-973.318 Y:53.1513 Z:1.2 SF:7 FCnt:18 DevID:104
+[TX] timestamp:2687.7 X:-193.57 Y:-4.39208 Z:1.2 SF:9 FCnt:19 DevID:437
+[TX] timestamp:2687.71 X:-450.642 Y:582.25 Z:1.2 SF:9 FCnt:18 DevID:485
+[TX] timestamp:2688.21 X:-632.002 Y:62.4065 Z:1.2 SF:9 FCnt:18 DevID:378
+[TX] timestamp:2688.22 X:-640.969 Y:-217.14 Z:1.2 SF:9 FCnt:18 DevID:335
+[TX] timestamp:2688.3 X:-269.892 Y:387.497 Z:1.2 SF:7 FCnt:18 DevID:132
+[RX] timestamp:2688.36 SF:7 FCnt:18 DevID:132 GwID:1000 RSSI:-13.8264
+[TX] timestamp:2688.55 X:494.356 Y:-38.1804 Z:1.2 SF:10 FCnt:18 DevID:554
+[TX] timestamp:2688.68 X:-66.4033 Y:-308.721 Z:1.2 SF:7 FCnt:18 DevID:101
+[TX] timestamp:2688.73 X:-574.57 Y:-45.9266 Z:1.2 SF:7 FCnt:18 DevID:31
+[TX] timestamp:2688.82 X:207.679 Y:-570.899 Z:1.2 SF:12 FCnt:18 DevID:948
+[TX] timestamp:2688.95 X:202.35 Y:-197.221 Z:1.2 SF:12 FCnt:19 DevID:879
+
+QUESTION:
+Which packets for given device are correctly transmitted?
+
+ANSWER:
+FCnt:18 DevID:132
+
+
+--------------------------------------------------------------------------
+SHOT 7
+--------------------------------------------------------------------------
+LOG:
+[TX] timestamp:2939.8 X:-262.179 Y:-251.052 Z:1.2 SF:7 FCnt:21 DevID:261
+[TX] timestamp:2939.84 X:659.341 Y:232.491 Z:1.2 SF:11 FCnt:20 DevID:720
+[TX] timestamp:2939.84 X:659.341 Y:232.491 Z:1.2 SF:11 FCnt:20 DevID:720
+[RX] timestamp:2939.86 SF:7 FCnt:21 DevID:261 GwID:1000 RSSI:-13.3912
+[TX] timestamp:2940.13 X:-687.809 Y:527.238 Z:1.2 SF:12 FCnt:21 DevID:959
+[TX] timestamp:2940.18 X:-495.256 Y:769.585 Z:1.2 SF:10 FCnt:20 DevID:549
+[TX] timestamp:2940.25 X:247.847 Y:-343.017 Z:1.2 SF:7 FCnt:20 DevID:6
+[TX] timestamp:2940.32 X:784.808 Y:590.025 Z:1.2 SF:10 FCnt:20 DevID:545
+[TX] timestamp:2940.6 X:-365.083 Y:-172.615 Z:1.2 SF:12 FCnt:20 DevID:942
+[TX] timestamp:2940.83 X:530.399 Y:281.093 Z:1.2 SF:9 FCnt:21 DevID:474
+[TX] timestamp:2940.87 X:-811.7 Y:-375.762 Z:1.2 SF:9 FCnt:20 DevID:480
+[TX] timestamp:2941.31 X:884.556 Y:-83.639 Z:1.2 SF:12 FCnt:20 DevID:851
+[TX] timestamp:2941.4 X:10.9773 Y:-7.15517 Z:1.2 SF:9 FCnt:20 DevID:347
+[TX] timestamp:2941.47 X:676.529 Y:-732.053 Z:1.2 SF:7 FCnt:20 DevID:76
+[TX] timestamp:2941.62 X:131.58 Y:712.52 Z:1.2 SF:7 FCnt:20 DevID:206
+[TX] timestamp:2941.73 X:294.92 Y:-404.014 Z:1.2 SF:10 FCnt:20 DevID:610
+[TX] timestamp:2941.9 X:0.600433 Y:-808.719 Z:1.2 SF:7 FCnt:20 DevID:26
+[RX] timestamp:2942.14 SF:10 FCnt:20 DevID:610 GwID:1000 RSSI:-16.1366
+
+QUESTION:
+Which packets for given device are correctly transmitted?
+
+ANSWER:
+FCnt:21 DevID:261
+FCnt:20 DevID:610
+
+
+
+
+--------------------------------------------------------------------------
+SHOT 8
+--------------------------------------------------------------------------
+LOG:
+[TX] timestamp:2973.04 X:380.453 Y:737.582 Z:1.2 SF:7 FCnt:20 DevID:239
+[RX] timestamp:2973.11 SF:7 FCnt:20 DevID:239 GwID:1000 RSSI:-22.4215
+[TX] timestamp:2973.37 X:950.006 Y:34.9957 Z:1.2 SF:7 FCnt:19 DevID:49
+[RX] timestamp:2973.43 SF:7 FCnt:19 DevID:49 GwID:1000 RSSI:-27.0066
+[TX] timestamp:2973.52 X:-594.06 Y:-497.065 Z:1.2 SF:12 FCnt:21 DevID:961
+[TX] timestamp:2973.53 X:-561.566 Y:-78.0621 Z:1.2 SF:7 FCnt:20 DevID:65
+[TX] timestamp:2973.57 X:221.211 Y:794.859 Z:1.2 SF:10 FCnt:20 DevID:618
+[TX] timestamp:2973.64 X:-251.097 Y:-576.942 Z:1.2 SF:7 FCnt:20 DevID:129
+[TX] timestamp:2973.72 X:-648.305 Y:-359.044 Z:1.2 SF:8 FCnt:21 DevID:306
+[TX] timestamp:2973.94 X:-360.363 Y:222.454 Z:1.2 SF:7 FCnt:20 DevID:21
+[TX] timestamp:2973.99 X:562.257 Y:-523.814 Z:1.2 SF:7 FCnt:21 DevID:14
+[TX] timestamp:2974.02 X:841.612 Y:0.706776 Z:1.2 SF:9 FCnt:21 DevID:388
+[TX] timestamp:2974.25 X:436.899 Y:337.666 Z:1.2 SF:11 FCnt:20 DevID:775
+[TX] timestamp:2974.37 X:681.769 Y:448.928 Z:1.2 SF:9 FCnt:21 DevID:413
+
+QUESTION:
+Which packets for given device are correctly transmitted?
+
+ANSWER:
+FCnt:20 DevID:239
+FCnt:19 DevID:49
+
+--------------------------------------------------------------------------
+SHOT 9
+--------------------------------------------------------------------------
+LOG:
+[TX] timestamp:3177.18 X:422.176 Y:865.413 Z:1.2 SF:8 FCnt:22 DevID:267
+[TX] timestamp:3177.22 X:232.593 Y:521.208 Z:1.2 SF:11 FCnt:22 DevID:755
+[RX] timestamp:3177.29 SF:8 FCnt:22 DevID:267 GwID:1000 RSSI:-24.099
+[TX] timestamp:3177.59 X:-768.278 Y:-235.383 Z:1.2 SF:12 FCnt:22 DevID:911
+[TX] timestamp:3177.69 X:-562.133 Y:521.936 Z:1.2 SF:10 FCnt:21 DevID:636
+[TX] timestamp:3177.7 X:-193.57 Y:-4.39208 Z:1.2 SF:9 FCnt:22 DevID:437
+[TX] timestamp:3177.83 X:-549.383 Y:728.22 Z:1.2 SF:12 FCnt:22 DevID:957
+[TX] timestamp:3178.44 X:237.796 Y:792.457 Z:1.2 SF:11 FCnt:22 DevID:742
+[TX] timestamp:3178.62 X:368.877 Y:-106.985 Z:1.2 SF:11 FCnt:22 DevID:795
+[TX] timestamp:3178.68 X:-2.33003 Y:739.335 Z:1.2 SF:11 FCnt:22 DevID:770
+[TX] timestamp:3178.74 X:-289.754 Y:-807.628 Z:1.2 SF:9 FCnt:21 DevID:452
+[TX] timestamp:3178.88 X:-643.102 Y:221.768 Z:1.2 SF:12 FCnt:22 DevID:835
+[TX] timestamp:3178.93 X:3.59957 Y:-792.762 Z:1.2 SF:11 FCnt:22 DevID:787
+[TX] timestamp:3178.99 X:-32.8169 Y:-67.8536 Z:1.2 SF:9 FCnt:22 DevID:384
+[RX] timestamp:3179.07 SF:12 FCnt:22 DevID:911 GwID:1000 RSSI:-22.7489
+[TX] timestamp:3179.12 X:-88.401 Y:130.369 Z:1.2 SF:10 FCnt:22 DevID:533
+[TX] timestamp:3179.2 X:6.13194 Y:200.329 Z:1.2 SF:9 FCnt:21 DevID:332
+[TX] timestamp:3179.37 X:34.5341 Y:253.093 Z:1.2 SF:9 FCnt:22 DevID:386
+[RX] timestamp:3179.53 SF:10 FCnt:22 DevID:533 GwID:1000 RSSI:-4.61995
+
+QUESTION:
+Which packets for given device are correctly transmitted?
+
+ANSWER:
+FCnt:22 DevID:267
+FCnt:22 DevID:911
+FCnt:22 DevID:533
+
+
+--------------------------------------------------------------------------
+SHOT 10
+--------------------------------------------------------------------------
+LOG:
+[TX] timestamp:3208.27 X:324.622 Y:605.136 Z:1.2 SF:7 FCnt:21 DevID:169
+[RX] timestamp:3208.34 SF:7 FCnt:21 DevID:169 GwID:1000 RSSI:-21.8527
+[TX] timestamp:3208.43 X:627.759 Y:-95.6157 Z:1.2 SF:11 FCnt:21 DevID:681
+[TX] timestamp:3208.59 X:371.9 Y:-421.948 Z:1.2 SF:9 FCnt:22 DevID:454
+[TX] timestamp:3208.76 X:481.047 Y:631.744 Z:1.2 SF:12 FCnt:23 DevID:993
+[TX] timestamp:3208.93 X:141.98 Y:-140.067 Z:1.2 SF:12 FCnt:23 DevID:929
+[TX] timestamp:3209.1 X:778.568 Y:382.5 Z:1.2 SF:10 FCnt:22 DevID:509
+[RX] timestamp:3209.17 SF:11 FCnt:21 DevID:681 GwID:1000 RSSI:-19.5467
+[TX] timestamp:3209.23 X:7.57061 Y:45.2059 Z:1.2 SF:9 FCnt:22 DevID:445
+[TX] timestamp:3209.28 X:30.782 Y:-471.086 Z:1.2 SF:8 FCnt:22 DevID:302
+[TX] timestamp:3209.36 X:-579.077 Y:-126.173 Z:1.2 SF:11 FCnt:21 DevID:772
+[TX] timestamp:3209.4 X:-166.22 Y:-413.118 Z:1.2 SF:7 FCnt:22 DevID:1
+[RX] timestamp:3209.45 SF:9 FCnt:22 DevID:445 GwID:1000 RSSI:8.55902
+[TX] timestamp:3209.47 X:84.0775 Y:426.035 Z:1.2 SF:10 FCnt:22 DevID:530
+[TX] timestamp:3209.66 X:80.4924 Y:833.656 Z:1.2 SF:7 FCnt:22 DevID:162
+
+QUESTION:
+Which packets for given device are correctly transmitted?
+
+ANSWER:
+FCnt:21 DevID:169
+FCnt:21 DevID:681
+FCnt:22 DevID:533
+FCnt:22 DevID:445
