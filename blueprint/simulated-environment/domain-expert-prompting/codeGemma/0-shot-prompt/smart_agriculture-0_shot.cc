@@ -1,105 +1,51 @@
-```
-        // Smart Agriculture Network
+// Include necessary libraries
+            #include "ns3/yans-wifi-helper.h"
+            #include "ns3/on-off-helper.h"
+            #include "ns3/inet-socket-address.h"
+            #include "ns3/packet-sink-helper.h"
+            #include "ns3/ssid.h"
+            #include "ns3/internet-stack-helper.h"
+            #include "ns3/ipv4-address-helper.h"
 
-        // Create a new network
-        network "smart_agriculture" {
-          // Set the network type
-          type = "lora"
+            // Set up simulation parameters
+            int numAP = 1;
+            int numSta = 3;
+            double simTime = 3600;
 
-          // Set the data rate
-          data_rate = "SF12BW125"
+            // Create nodes
+            NodeContainer apNodes;
+            NodeContainer staNodes;
+            for (int i = 0; i < numAP; i++) {
+                apNodes.Create();
+            }
+            for (int i = 0; i < numSta; i++) {
+                staNodes.Create();
+            }
 
-          // Set the channel frequency
-          channel_frequency = "915MHz"
+            // Set up mobility for WiFi nodes
+            Ptr<ListPositionAllocator> allocatorAPWiFi = CreateObject<ListPositionAllocator>();
+            allocatorAPWiFi->Add(Vector(40.7128, -74.0060, 1.5)); // position depends on blueprint elements
+            allocatorAPWiFi->Add(Vector(40.7129, -74.0061, 1.5)); // position depends on blueprint elements
+            allocatorAPWiFi->Add(Vector(40.7130, -74.0062, 1.5)); // position depends on blueprint elements
+            mobility.SetPositionAllocator(allocatorAPWiFi);
 
-          // Set the encryption key
-          encryption_key = "your_encryption_key"
-        }
+            Ptr<ListPositionAllocator> allocatorStaWiFi = CreateObject<ListPositionAllocator>();
+            allocatorStaWiFi->Add(Vector(40.7128, -74.0060, 1.5)); // position depends on blueprint elements
+            allocatorStaWiFi->Add(Vector(40.7129, -74.0061, 1.5)); // position depends on blueprint elements
+            allocatorStaWiFi->Add(Vector(40.7130, -74.0062, 1.5)); // position depends on blueprint elements
+            mobility.SetPositionAllocator(allocatorStaWiFi);
 
-        // Create a new node
-        node "farm_management_system" {
-          // Set the node type
-          type = "gateway"
+            mobility.Install(wifiNodes);
 
-          // Set the node name
-          name = "FMS-001"
+            // Set up LoRaWAN network
+            // ...
 
-          // Set the location
-          location = "Farm Office"
+            // Set up OnOff applications
+            // ...
 
-          // Set the IP address
-          ip_address = "192.168.1.1"
-        }
+            // Set up packet sink
+            // ...
 
-        // Create a new node
-        node "soil_moisture_sensor" {
-          // Set the node type
-          type = "device"
-
-          // Set the node name
-          name = "SMS-001"
-
-          // Set the location
-          location = "Field A"
-
-          // Set the sensor type
-          sensor_type = "capacitive"
-
-          // Set the data rate
-          data_rate = "1 Kbps"
-        }
-
-        // Create a new node
-        node "weather_station" {
-          // Set the node type
-          type = "device"
-
-          // Set the node name
-          name = "WS-001"
-
-          // Set the location
-          location = "Field B"
-
-          // Set the parameters
-          parameters = ["temperature", "humidity", "wind_speed"]
-
-          // Set the data rate
-          data_rate = "5 Kbps"
-        }
-
-        // Create a new node
-        node "irrigation_controller" {
-          // Set the node type
-          type = "device"
-
-          // Set the node name
-          name = "IC-001"
-
-          // Set the location
-          location = "Field C"
-
-          // Set the control type
-          control_type = "automatic"
-
-          // Set the water flow rate
-          water_flow_rate = "10 L/min"
-        }
-
-        // Create a new node
-        node "drone" {
-          // Set the node type
-          type = "device"
-
-          // Set the node name
-          name = "DR-001"
-
-          // Set the location
-          location = "Aerial"
-
-          // Set the purpose
-          purpose = "crop_surveillance"
-
-          // Set the flight time
-          flight_time = "30 minutes"
-        }
-      ```<eos>
+            // Run simulation
+            Simulator::Run(simTime);
+```<eos>
