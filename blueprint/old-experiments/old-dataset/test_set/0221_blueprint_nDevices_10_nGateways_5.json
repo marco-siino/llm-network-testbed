@@ -1,0 +1,178 @@
+{
+  "type": "configuration",
+  "version": "1.0",
+  "mqtt": {
+    "broker": "<mqtt broker hostname>",
+    "port": 8883,
+    "client_id": "mqtt-db-logger",
+    "username": "<username here>",
+    "password": "<passowrd here>",
+    "topics": [
+      "application/+/device/+/event/#"
+    ]
+  },
+  "mongodb": {
+    "host": "<mongodb database hostname>",
+    "port": 27017,
+    "database": "Chirpstack-Supernova"
+  },
+  "network": {
+    "id": "lorawan-network",
+    "name": "LoRaWAN Network",
+    "network_server": {
+      "id": "network-server-1",
+      "name": "ChirpStack Network Server",
+      "address": "<network server addr>",
+      "api_token": "<API token Here>"
+    },
+    "gateways": [
+      {
+        "id": "gateway-1",
+        "name": "LoRa Gateway 1",
+        "address": "192.168.1.101",
+        "latitude": 38.10384248873736,
+        "longitude": 13.348391068955934,
+        "frequency_band": "EU868",
+        "model": "gateway-model-1"
+      },
+      {
+        "id": "gateway-2",
+        "name": "LoRa Gateway 2",
+        "address": "192.168.1.102",
+        "latitude": 38.11051553827164,
+        "longitude": 13.343868742681584,
+        "frequency_band": "EU868",
+        "model": "gateway-model-2"
+      },
+      {
+        "id": "gateway-3",
+        "name": "LoRa Gateway 3",
+        "address": "192.168.1.103",
+        "latitude": 38.10610934801256,
+        "longitude": 13.342307591078985,
+        "frequency_band": "EU868",
+        "model": "gateway-model-3"
+      },
+      {
+        "id": "gateway-4",
+        "name": "LoRa Gateway 4",
+        "address": "192.168.1.104",
+        "latitude": 38.10725109014314,
+        "longitude": 13.348822927658173,
+        "frequency_band": "EU868",
+        "model": "gateway-model-4"
+      },
+      {
+        "id": "gateway-5",
+        "name": "LoRa Gateway 5",
+        "address": "192.168.1.105",
+        "latitude": 38.1025092925796,
+        "longitude": 13.347224299575133,
+        "frequency_band": "EU868",
+        "model": "gateway-model-5"
+      }
+    ],
+    "devices": [
+      {
+        "id": "device-1",
+        "name": "LoRa Device 1",
+        "dev_eui": "633424C4E710920A",
+        "app_eui": "0000000000000000",
+        "app_key": "F3F70BA46D21A139A76F97B8CA01D404",
+        "profile": "sensor-profile-xyz",
+        "latitude": 38.098633387390635,
+        "longitude": 13.336802181694354
+      },
+      {
+        "id": "device-2",
+        "name": "LoRa Device 2",
+        "dev_eui": "CEA49F168CBFEAE7",
+        "app_eui": "0000000000000000",
+        "app_key": "C9276B30D607F32C5C510F5F8DF9B42B",
+        "profile": "sensor-profile-xyz",
+        "latitude": 38.10059640128977,
+        "longitude": 13.354521538327896
+      },
+      {
+        "id": "device-3",
+        "name": "LoRa Device 3",
+        "dev_eui": "7C2818C99BE9E71F",
+        "app_eui": "0000000000000000",
+        "app_key": "C6C9DEF4C7BBEC8073784CBF706EAE9F",
+        "profile": "sensor-profile-xyz",
+        "latitude": 38.10827558180158,
+        "longitude": 13.346569909870134
+      },
+      {
+        "id": "device-4",
+        "name": "LoRa Device 4",
+        "dev_eui": "C35232CD55DFF964",
+        "app_eui": "0000000000000000",
+        "app_key": "BFB28CD606A2C0C8D795F06932768558",
+        "profile": "sensor-profile-xyz",
+        "latitude": 38.09997146222075,
+        "longitude": 13.348027627567983
+      },
+      {
+        "id": "device-5",
+        "name": "LoRa Device 5",
+        "dev_eui": "D583CE988780BD10",
+        "app_eui": "0000000000000000",
+        "app_key": "4C1A1661DB3C5F56CAFF818A66497190",
+        "profile": "sensor-profile-xyz",
+        "latitude": 38.10220801012937,
+        "longitude": 13.336046733534966
+      },
+      {
+        "id": "device-6",
+        "name": "LoRa Device 6",
+        "dev_eui": "5DBE1395075807F8",
+        "app_eui": "0000000000000000",
+        "app_key": "4C8126541794D37C152B2136D2C2DE8E",
+        "profile": "sensor-profile-xyz",
+        "latitude": 38.10210302077181,
+        "longitude": 13.34508961472958
+      },
+      {
+        "id": "device-7",
+        "name": "LoRa Device 7",
+        "dev_eui": "C20EBCC387E0FF3C",
+        "app_eui": "0000000000000000",
+        "app_key": "5DDC4B60E148649A97DBE68AACA4C32F",
+        "profile": "sensor-profile-xyz",
+        "latitude": 38.104258652120485,
+        "longitude": 13.344886292367484
+      },
+      {
+        "id": "device-8",
+        "name": "LoRa Device 8",
+        "dev_eui": "AFEA5004D73DA1B6",
+        "app_eui": "0000000000000000",
+        "app_key": "0E4BCC66957618DD2D494029F788F854",
+        "profile": "sensor-profile-xyz",
+        "latitude": 38.11186318394448,
+        "longitude": 13.34908265474409
+      },
+      {
+        "id": "device-9",
+        "name": "LoRa Device 9",
+        "dev_eui": "902208EF3A0E0BFC",
+        "app_eui": "0000000000000000",
+        "app_key": "8807309864DCCD9821C9686C4F1BADA1",
+        "profile": "sensor-profile-xyz",
+        "latitude": 38.10234659694879,
+        "longitude": 13.35122802325767
+      },
+      {
+        "id": "device-10",
+        "name": "LoRa Device 10",
+        "dev_eui": "6F23A5E39151A396",
+        "app_eui": "0000000000000000",
+        "app_key": "7603E18BAA9159E7AA2F1FC951952E12",
+        "profile": "sensor-profile-xyz",
+        "latitude": 38.11170026384844,
+        "longitude": 13.341018270649005
+      }
+    ]
+  }
+}
