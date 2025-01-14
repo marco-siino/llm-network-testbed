@@ -1,2 +1,2 @@
 # gpt_networking
-Prompting GPT for Networking Log Knowledge Extraction
+Integration of Large Language Models into a Testbed Pipeline for Automated Network Management
